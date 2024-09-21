@@ -1,0 +1,22 @@
+---
+deployment:
+  tasks:
+    - name: Install Dependencies
+      command: "npm run install-public"
+
+    - name: Build Application
+      command: "npm run build"
+
+    - name: Start Application
+      command: "npm run start"
+
+# Commenting out the pre_deploy section to test deployment
+# pre_deploy:
+#   tasks:
+#     - name: Backup Existing Application
+#       command: "cp -r ~/nodejsapp ~/nodejsapp_backup"
+
+post_deploy:
+  tasks:
+    - name: Cleanup
+      command: "echo 'Deployment completed'"
