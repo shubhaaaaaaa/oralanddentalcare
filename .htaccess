@@ -1,10 +1,15 @@
+# Disable directory listing
+Options -Indexes
+
 # DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
 PassengerAppRoot "/home8/oralandd/public_html/staging.oralanddentalcare.com.np"
 PassengerBaseURI "/"
 PassengerAppType node
 PassengerStartupFile server.js
+
 # DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
 RewriteEngine On
+
 # Redirect HTTP to HTTPS
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
