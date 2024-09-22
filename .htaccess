@@ -1,7 +1,6 @@
 # DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
-PassengerAppRoot "/home8/oralandd/nodejsapp"
+PassengerAppRoot "/home8/oralandd/public_html/staging.oralanddentalcare.com.np"
 PassengerBaseURI "/"
-PassengerNodejs "/home8/oralandd/nodevenv/nodejsapp/18/bin/node"
 PassengerAppType node
 PassengerStartupFile server.js
 # DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
