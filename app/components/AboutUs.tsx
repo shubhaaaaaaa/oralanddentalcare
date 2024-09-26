@@ -57,6 +57,9 @@ function AboutUs() {
             <button className=" bg-white text-primary hover:bg-primary hover:text-white border border-primary  mt-2 leading-tight py-2 text-md px-3 rounded-md md:hidden grid">
                 Know More
             </button>
+            <button className=" bg-white text-primary hover:bg-primary hover:text-white border border-primary  mt-5 mb-8 leading-tight py-2 text-sm xl:text-lg px-3 rounded-md">
+                More Services
+            </button>
         </div>
     )
 }

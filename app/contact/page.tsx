@@ -1,8 +1,26 @@
-function ContactUs() {
+import React from 'react'
+import '../globals.css'
+
+const page = () => {
     return (
         <>
+            {/* Head Section  */}
+            <div className="flex bg-gradient-to-b from-[#d4f7f0] to-[#e8f7fd] overflow-clip">
+                <div className="w-full xl:w-[60%] 3xl:w-[40%] xl:pl-44 lg:ps-28 md:ps-20 ps-10 text-[#112222] xl:py-20 lg:py-12 md:py-10 py-7 ">
+                    <div className="font-[1000] xl:text-[3.5rem] text-2xl md:text-3xl lg:text-[2.2rem] leading-snug xl:leading-[4rem] tracking-wide xl:w-[35rem] lg:w-[20rem] w-[11rem] md:w-[20rem] ">
+                        Contact Us
+                    </div>
+
+                    <div className="xl:pt-6 pt-5 text-xs xl:text-lg lg:text-[13px] w-[10rem] xl:w-[38rem] md:w-[20rem] lg:w-[20rem] 3xl:text-xl leading-5 opacity-90">
+                    Reach out to us today and let us help you achieve a healthier, brighter smile. We are here to answer your questions, schedule appointments, and welcome you to our dental family with warmth and care.
+                    </div>
+
+                </div>
+            </div>
+
+            {/* Main Section  */}
             <div className="w-full px-10 xl:pl-44 lg:pl-20 md:pl-20 py-10  tracking-wide ">
-                <h1 className="font-black text-2xl mb-7 xl:text-4xl">Contact Us</h1>
+                <h1 className="font-black text-2xl mb-7 xl:text-4xl">Get In Touch</h1>
                 <div className="md:flex md:gap-10 xl:gap-32">
                     <div className="mb-10">
                         <div className="flex mb-5">
@@ -50,7 +68,7 @@ function ContactUs() {
                 </div>
             </div>
         </>
-    );
+    )
 }
 
-export default ContactUs;
+export default page

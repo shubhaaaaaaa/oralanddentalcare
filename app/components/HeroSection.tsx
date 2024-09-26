@@ -4,7 +4,7 @@ import Image from 'next/image'
 function HeroSection() {
     return (
         <>
-            <div className="flex bg-gradient-to-b from-[#d4f7f0] to-[#e8f7fd]">
+            <div className="flex bg-gradient-to-b from-[#d4f7f0] to-[#e8f7fd] overflow-clip">
                 <div className="w-full xl:w-[60%] 3xl:w-[40%] xl:h-[35rem]  lg:h-[22rem] xl:pl-44 lg:ps-28 md:ps-20 ps-10 text-[#112222]">
                     <div className="font-[1000] xl:text-[3.5rem] text-2xl md:text-3xl lg:text-[2.2rem] xl:pt-20 lg:pt-12 pt-7 leading-snug xl:leading-[4rem] tracking-wide xl:w-[35rem] lg:w-[20rem] w-[11rem] md:w-[20rem] md:pt-10">
                         We take care of your dental health

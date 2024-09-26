@@ -20,39 +20,39 @@ function WhatWeDo() {
                     </div>
                     <div className="lg:w-1/2 md:w-1/2 w-full text-sm xl:text-[18px] h-fit">
                         <div className="flex items-center mb-5">
-                            <div className="h-10 w-10 xl:h-14 xl:w-14 2xl:h-20 2xl:w-20 bg-[#d2f7ef] rounded-md mr-5 bg-contain bg-[url('/images/icons/stethoscope.png')]"></div>
+                            <div className="h-10 w-10 bg-[#d2f7ef] rounded-md mr-5 bg-contain bg-[url('/images/icons/stethoscope.png')]"></div>
                             <div>Checkup & Diagnosis</div>
                         </div>                        
                         <div className="flex items-center mb-5">
-                            <div className="h-10 w-10 xl:h-14 xl:w-14 2xl:h-20 2xl:w-20 bg-[#d2f7ef] rounded-md mr-5 bg-contain bg-[url('/images/icons/xray.png')]"></div>
+                            <div className="h-10 w-10 bg-[#d2f7ef] rounded-md mr-5 bg-contain bg-[url('/images/icons/xray.png')]"></div>
                             <div>X-Ray (IOPA)</div>
                         </div>                        
                         <div className="flex items-center mb-5">
-                            <div className="h-10 w-10 xl:h-14 xl:w-14 2xl:h-20 2xl:w-20 bg-[#d2f7ef] rounded-md mr-5 bg-contain bg-[url('/images/icons/periodontic.png')]"></div>
+                            <div className="h-10 w-10 bg-[#d2f7ef] rounded-md mr-5 bg-contain bg-[url('/images/icons/periodontic.png')]"></div>
                             <div>Periodontic Treatment</div>
                         </div>                        
                         <div className="flex items-center mb-5">
-                            <div className="h-10 w-10 xl:h-14 xl:w-14 2xl:h-20 2xl:w-20 bg-[#d2f7ef] rounded-md mr-5 bg-contain bg-[url('/images/icons/endodontic.png')]"></div>
+                            <div className="h-10 w-10 bg-[#d2f7ef] rounded-md mr-5 bg-contain bg-[url('/images/icons/endodontic.png')]"></div>
                             <div>Endodontic Treatment</div>
                         </div>                        
                         <div className="flex items-center mb-5">
-                            <div className="h-10 w-10 xl:h-14 xl:w-14 2xl:h-20 2xl:w-20 bg-[#d2f7ef] rounded-md mr-5 bg-contain bg-[url('/images/icons/prosthodontic.png')]"></div>
+                            <div className="h-10 w-10 bg-[#d2f7ef] rounded-md mr-5 bg-contain bg-[url('/images/icons/prosthodontic.png')]"></div>
                             <div>Prosthodontic Treatment</div>
                         </div>                        
                         <div className="flex items-center mb-5">
-                            <div className="h-10 w-10 xl:h-14 xl:w-14 2xl:h-20 2xl:w-20 bg-[#d2f7ef] rounded-md mr-5 bg-contain bg-[url('/images/icons/pedodontic.png')]"></div>
+                            <div className="h-10 w-10 bg-[#d2f7ef] rounded-md mr-5 bg-contain bg-[url('/images/icons/pedodontic.png')]"></div>
                             <div>Pedodontic Treatment</div>
                         </div>                        
                         <div className="flex items-center mb-5">
-                            <div className="h-10 w-10 xl:h-14 xl:w-14 2xl:h-20 2xl:w-20 bg-[#d2f7ef] rounded-md mr-5 bg-contain bg-[url('/images/icons/face.png')]"></div>
+                            <div className="h-10 w-10 bg-[#d2f7ef] rounded-md mr-5 bg-contain bg-[url('/images/icons/face.png')]"></div>
                             <div>Oral & Maxillofacial Surgery</div>
                         </div>                        
                         <div className="flex items-center mb-5">
-                            <div className="h-10 w-10 xl:h-14 xl:w-14 2xl:h-20 2xl:w-20 bg-[#d2f7ef] rounded-md mr-5 bg-contain bg-[url('/images/icons/orthodontic.png')]"></div>
+                            <div className="h-10 w-10 bg-[#d2f7ef] rounded-md mr-5 bg-contain bg-[url('/images/icons/orthodontic.png')]"></div>
                             <div>Orthodontic Treatment</div>
                         </div>                        
                         <div className="flex items-center mb-5">
-                            <div className="h-10 w-10 xl:h-14 xl:w-14 2xl:h-20 2xl:w-20 bg-[#d2f7ef] rounded-md mr-5 bg-contain bg-[url('/images/icons/jewel.png')]"></div>
+                            <div className="h-10 w-10 bg-[#d2f7ef] rounded-md mr-5 bg-contain bg-[url('/images/icons/jewel.png')]"></div>
                             <div>Cosmetic Treatment</div>
                         </div>                        
                     </div>
