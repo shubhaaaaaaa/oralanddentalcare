@@ -12,7 +12,7 @@ function WhatWeDo() {
                             alt="Dentist examining"
                             width={250}
                             height={100}
-                            className="rounded-xl h-4/6 w-4/5 xl:h-3/4"
+                            className="rounded-xl w-full md:h-3/4 md:w-3/4 xl:h-[65%]"
                             />                      
                         <button className=" bg-white text-primary hover:bg-primary hover:text-white border border-primary  mt-5 mb-8 leading-tight py-2 text-sm xl:text-lg px-3 rounded-md">
                             More Services
