@@ -16,9 +16,11 @@ function HeroSection() {
                         to ensuring your smile stays healthy and beautiful.
                     </div>
 
-                    <button className="bg-primary text-white hover:bg-white hover:text-primary hover:border hover:border-primary xl:px-3 xl:py-2 lg:px-2 lg:py-1 xl:rounded-xl lg:xl:rounded-xl xl:text-[18px] lg:text-[14px] xl:mt-12 mt-7 mb-10 leading-tight py-1 text-sm px-2 rounded-lg 3xl:text-[26px]">
+                    <a href="/contact">
+                        <button className="bg-primary text-white hover:bg-white hover:text-primary hover:border hover:border-primary xl:px-3 xl:py-2 lg:px-2 lg:py-1 xl:rounded-xl lg:xl:rounded-xl xl:text-[18px] lg:text-[14px] xl:mt-12 mt-7 mb-10 leading-tight py-1 text-sm px-2 rounded-lg 3xl:text-[26px]">
                         Book an Appointment
-                    </button>
+                        </button>
+                    </a>
                 </div>
                 <Image
                     src={'/images/photoshoot/nurse-photo.png'}

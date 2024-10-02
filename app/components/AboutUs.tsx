@@ -27,9 +27,11 @@ function AboutUs() {
                     </div>
                 </div>
 
-                <button className=" bg-white text-primary hover:bg-primary hover:text-white border border-primary  mt-2 leading-tight py-2 text-md px-3 rounded-md hidden md:grid">
+                <a href="/about">
+                    <button className=" bg-white text-primary hover:bg-primary hover:text-white border border-primary  mt-2 leading-tight py-2 text-md px-3 rounded-md hidden md:grid">
                     Know More
-                </button>
+                    </button>
+                </a>
             </div>
             <div className="flex items-center justify-center my-10">
                 <Image

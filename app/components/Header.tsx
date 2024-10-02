@@ -28,33 +28,45 @@ function Header() {
         <>
             <div className="border pr-6 pt-4 sm:pt-7">
                 <div className="flex justify-center items-center">
+                    <a href="/">
                     <Image
                         src="/images/logo.png"
                         width={200}
                         height={10}
                         alt="logo image"
-                        className="justify-self-start sm:pb-2 md:w-[220px] lg:w-[200px] xl:w-[250px] 3xl:w-[320px] "
+                        className="justify-self-start sm:pb-2 md:w-[220px] lg:w-[200px] xl:w-[250px] 3xl:w-[320px]"
                     />
+                    </a>
 
                     <div className="xl:flex lg:flex justify-center items-center xl:gap-16 2xl:gap-24 3xl:gap-32 lg:gap-10 grid-cols-4 text-darkblue hidden xl:text-[16px] 2xl:text-[16px] 3xl:text-[22px] lg:text-[14px] xl:mx-[12rem] lg:mx-[1rem]">
+                        <a href="/team">
                         <div className="text-center cursor-pointer hover:font-bold transform transition duration-300 ease-in-out ">
                             Our Team
                         </div>
+                        </a>
+                        <a href="/services">
                         <div className="text-center cursor-pointer hover:font-bold transform transition duration-300 ease-in-out ">
                             Services
                         </div>
+                        </a>
+                        <a href="/about">
                         <div className="text-center cursor-pointer hover:font-bold transform transition duration-300 ease-in-out ">
                             About
                         </div>
+                        </a>
+                        <a href="/contact">
                         <div className="text-center cursor-pointer hover:font-bold transform transition duration-300 ease-in-out ">
                             Contact
                         </div>
+                        </a>
                     </div>
 
                     <div>
+                    <a href="/services">
                         <button className="xl:grid lg:grid float-right color-button  bg-primary text-white hover:bg-white hover:text-primary hover:border hover:border-primary xl:px-3 xl:py-2 lg:px-2 3xl:text-[22px] lg:py-1 rounded-xl mb-2 xl:text-[15px] lg:text-[14px] hidden xl:ml-14 lg:ml-10">
                             Book an Appointment
                         </button>
+                    </a>
                     </div>
 
                     <Image
@@ -72,19 +84,20 @@ function Header() {
                 <div className="bg-primary-100 w-full h-[100vh] text-darkgray justify-center items-right  text-sm text-center md:text-[18px] md:pt-32 sm:pt-10">
                     <ul>
                         <li className="hover:font-bold pb-5 md:pb-10">
-                            <a href="#">Our Team</a>
+                            <a href="/team">Our Team</a>
                         </li>
                         <li className="hover:font-bold pb-5 md:pb-10">
-                            <a href="#">Services</a>
+                            <a href="/services">Services</a>
                         </li>
                         <li className="hover:font-bold pb-5 md:pb-10">
-                            <a href="#">About</a>
+                            <a href="/about">About</a>
                         </li>
                         <li className="hover:font-bold pb-5 md:pb-10">
-                            <a href="#">Contact</a>
+                            <a href="/contact">Contact</a>
                         </li>
                     </ul>
                     <div className="flex justify-center gap-3 pt-12 md:gap-6">
+                        <a href="https://www.facebook.com/oralanddentalcareclinic" target='_blank__'>
                         <Image
                             src="/images/facebook.png"
                             alt="facebook"
@@ -92,6 +105,8 @@ function Header() {
                             height={28}
                             className="md:h-8 md:w-8"
                         />
+                        </a>
+                        <a href="">
                         <Image
                             src="/images/instagram.png"
                             alt="instagram"
@@ -99,6 +114,8 @@ function Header() {
                             height={28}
                             className="md:h-8 md:w-8"
                         />
+                        </a>
+                        <a href="https://wa.me/9851072626?text=Hello! How can we help?" target='_blank__'>
                         <Image
                             src="/images/whatsapp.png"
                             alt="whatsapp"
@@ -106,6 +123,7 @@ function Header() {
                             height={28}
                             className="md:h-8 md:w-8"
                         />
+                        </a>
                     </div>
                     <div className="text-[10px] flex-col items-center mt-20 md:text-[17px]">
                         <div>

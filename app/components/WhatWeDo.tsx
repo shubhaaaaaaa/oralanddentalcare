@@ -1,4 +1,5 @@
 import Image from "next/image"
+import React from "react"
 
 function WhatWeDo() {
     return (
@@ -14,9 +15,11 @@ function WhatWeDo() {
                             height={100}
                             className="rounded-xl w-full md:h-3/4 md:w-3/4 xl:h-[65%]"
                             />                      
+                        <a href="/services">
                         <button className=" bg-white text-primary hover:bg-primary hover:text-white border border-primary  mt-5 mb-8 leading-tight py-2 text-sm xl:text-lg px-3 rounded-md">
                             More Services
                         </button>
+                        </ a>
                     </div>
                     <div className="lg:w-1/2 md:w-1/2 w-full text-sm xl:text-[18px] h-fit">
                         <div className="flex items-center mb-5">

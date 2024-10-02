@@ -84,12 +84,16 @@ const page = () => {
                     </div>
                 </div>  
                 <div className='flex gap-10'>
-                    <button className=" bg-primary text-white hover:bg-white hover:text-primary border border-primary  mt-5 mb-8 leading-tight py-2 text-sm xl:text-lg px-3 rounded-md">
+                    <a href="/contact">
+                        <button className=" bg-primary text-white hover:bg-white hover:text-primary border border-primary  mt-5 mb-8 leading-tight py-2 text-sm xl:text-lg px-3 rounded-md">
                         Contact Us
-                    </button>
+                        </button>
+                    </a>
+                    <a href="/services">
                     <button className=" bg-white text-primary hover:bg-primary hover:text-white border border-primary  mt-5 mb-8 leading-tight py-2 text-sm xl:text-lg px-3 rounded-md">
                         More Services
                     </button>
+                    </a>
                 </div>
             </div>
         </>

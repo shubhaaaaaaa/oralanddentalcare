@@ -212,24 +212,30 @@ function Footer() {
                 Stay in touch
             </p>
             <div className="flex gap-2 pt-2 pl-3 pb-4 md:pl-10 xl:hidden 2xl:hidden lg:hidden">
+            <a href="https://www.facebook.com/oralanddentalcareclinic" target='_blank__'>
                 <Image
                     src="/images/icons/facebook.png"
                     alt="facebook"
                     width={23}
                     height={23}
                 />
+            </a>
+            <a href="">
                 <Image
-                    src="/images/icons/instagram.png"
-                    alt="instagram"
-                    width={23}
-                    height={23}
+                src="/images/icons/instagram.png"
+                alt="instagram"
+                width={23}
+                height={23}
                 />
+            </a>
+            <a href="https://wa.me/9851072626?text=Hello! How can we help?" target='_blank__'>
                 <Image
-                    src="/images/icons/whatsapp.png"
-                    alt="whatsapp"
-                    width={23}
-                    height={23}
+                src="/images/icons/whatsapp.png"
+                alt="whatsapp"
+                width={23}
+                height={23}
                 />
+            </a>
             </div>
             <div className="text-[10px] bg-primary h-12 w-full text-white flex justify-between items-center px-3 xl:pl-20 lg:pl-10 2xl:pl-20 xl:pr-24 lg:pr-8 2xl:pr-24 xl:text-sm 2xl:text-sm lg:text-sm md:pl-10 md:pr-14">
                 <span>&copy;2024 Oral & Dental Care. All Rights Reserved.</span>
